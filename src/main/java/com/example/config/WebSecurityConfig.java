@@ -9,7 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.cristianruizblog.loginSecurity.service.UserDetailsServiceImpl;
+import com.example.service.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity
